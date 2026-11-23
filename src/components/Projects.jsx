@@ -7,7 +7,7 @@ export const Projects = ()=>{
         <div className="mt-[5%] flex gap-[5%] justify-around">
             {
                 ProjectsData.map((project)=>(
-                    <div className="h-[45vh] w-[20%] bg-white">
+                    <div className="h-[45vh] w-[20%] bg-white" key={project.id}>
                         <img src={project.src} alt={project.title} className="h-[30vh] w-[94%] ml-[3%] mt-[3%] bg-gray-400"/>
                         <h2 className="min-text-xl ml-[3%] mt-[2%] font-mono">{project.title}</h2>
                     </div>

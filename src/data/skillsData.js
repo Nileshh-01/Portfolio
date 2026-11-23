@@ -1,41 +1,44 @@
 export const skillsData = [
-    {
-        name: "Javascript",
-        image: "",
-    },
+  {
+    name: "Javascript",
+    icon: "src/assets/Javascript.svg",
+  },
 
-    {
-        name: "C++",
-        image: "",
-    },
+  {
+    name: "TailwindCSS",
+    icon: "src/assets/Tailwind CSS.svg",
+  },
 
-    {
-        name: "SQL",
-        image: "",
-    },
+  {
+    name: "HTML",
+    icon: "src/assets/HTML5.svg",
+  },
 
-    {
-        name: "React",
-        image: "",
-    },
+  {
+    name: "React",
+    icon: "src/assets/React.svg",
+  },
 
-    {
-        name: "TailwindCSS",
-        image: "",
-    },
+  {
+    name: "C++",
+    icon: "src/assets/C++.svg",
+  },
 
-    {
-        name: "HTML",
-        image: "",
-    },
-
-    {
-        name: "Python",
-        image: "",
-    },
-
-    {
-        name: "Git",
-        image: "",
-    },
-]
+  {
+    name: "SQL",
+    icon: "src/assets/MySQL.svg",
+  },
+  
+  {
+    name: "Python",
+    icon: "src/assets/Python.svg",
+  },
+  {
+    name: "Git",
+    icon: "src/assets/Git.svg",
+  },
+  {
+    name: "Supabase",
+    icon: "src/assets/supabase-icon.svg",
+  },
+];

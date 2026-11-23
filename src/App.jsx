@@ -5,6 +5,8 @@ import { About } from './components/About'
 import { Skills } from './components/Skills'
 import { Experience } from './components/Experience'
 import { Projects } from './components/Projects'
+import { Contacts } from './components/Contact'
+
 
 function App() {
 
@@ -15,7 +17,11 @@ function App() {
       <div id="hero" className="h-full flex mt-[10%]">
         <MyImage></MyImage>
         <About></About>
-        <Skills></Skills>
+        
+        <div className="ml-[5%] border-2 border-black w-[22%]">
+          <Skills></Skills>
+          <Contacts></Contacts>
+        </div>
       </div>
 
       <Experience></Experience>

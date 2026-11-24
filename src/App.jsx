@@ -12,13 +12,13 @@ function App() {
 
 
   return (
-    <div className="min-h-[250vh] w-full">
+    <div className="min-h-[300vh] w-full">
       {/* hero */}
-      <div id="hero" className="h-full flex mt-[10%]">
+      <div id="hero" className="h-full flex mt-[5%]">
         <MyImage></MyImage>
         <About></About>
         
-        <div className="ml-[5%] border-2 border-black w-[22%]">
+        <div className="ml-[5%] border-[0.15vw] border-black w-[22%]">
           <Skills></Skills>
           <Contacts></Contacts>
         </div>

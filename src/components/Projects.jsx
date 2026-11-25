@@ -19,21 +19,21 @@ export const Projects = ()=>{
                             <div className="absolute inset-0 p-[5%] text-xs text-white  overflow-y-auto">
                                 {
                                     project.bullets.map((bullet,i)=>(
-                                        <p className="mb-[2%] text-[0.9vw]" key={i}>- {bullet}</p>
+                                        <p className="mb-[2%] text-[min(4vw,1.6vh)]" key={i}>- {bullet}</p>
                                     ))
                                 }
                                 <div className="absolute bottom-[4%]">
-                                    <a href={project.githubUrl}><p className="mb-[2%] mt-[10%] text-bold text-[1.2vw]">GitHub ↗</p></a>
-                                    {project.title!="Pathfinding Visualizer"? <a href={project.liveUrl}><p className="text-[1.2vw] text-bold">Live Link ↗</p></a> : <></>}
+                                    <a href={project.githubUrl}><p className="mb-[2%] mt-[10%] text-bold text-[min(4vw,2vh)]">GitHub ↗</p></a>
+                                    {project.title!="Pathfinding Visualizer"? <a href={project.liveUrl}><p className="text-[min(4vw,2vh)] text-bold">Live Link ↗</p></a> : <></>}
                                 </div>
                             </div>
                         </div>
 
-                        <h2 className="text-[1.25vw] ml-[3%] mt-[2%] font-mono">{project.title}</h2>
+                        <h2 className="text-[min(40vw,2vh)] ml-[3%] mt-[2%] font-mono">{project.title}</h2>
                         <div className="flex mt-[2%]">
                             {
                                 project.stack.map((stack,i)=>(
-                                    <div className="text-[0.8vw] ml-[3%]" key={i}>
+                                    <div className="text-[min(2.5vw,1.4vh)] ml-[3%]" key={i}>
                                         {stack}
                                     </div>
                                 ))

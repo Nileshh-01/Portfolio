@@ -3,9 +3,9 @@ import { skillsData } from "../data/skillsData"
 export const Skills = ()=>{
     
     return(
-        <div>
+        <div className="w-full">
 
-            <h1 className="text-[9vw] lg:text-[4vw] font-extrabold font-stretch-50% ml-[5%]">SKILLS</h1>
+            <h1 className="text-[12vw] lg:text-[4vw] font-extrabold font-stretch-50% ml-[5%]">SKILLS</h1>
 
             <div className="flex flex-wrap justify-center gap-x-[6%] gap-y-[3vh] lg:gap-x-[5%] lg:gap-y-[2vh] w-[100%]">
                 {

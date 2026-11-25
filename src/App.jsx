@@ -19,7 +19,7 @@ function App() {
         <MyImage></MyImage>
         <About></About>
         
-        <div className=" border-[0.4vw] p-[4vw] border-black w-[88vw] lg:w-[22vw] lg:border-[0.15vw] lg:p-[1.2vw]">
+        <div className="w-[min(88vw,42vh)] border-[min(0.4vw,0.2vh)] p-[4vw] border-black lg:p-[1.2vw]">
           <Skills></Skills>
           <Contacts></Contacts>
           <ResumePrinter></ResumePrinter>

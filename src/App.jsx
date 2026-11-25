@@ -6,7 +6,7 @@ import { Skills } from './components/Skills'
 import { Experience } from './components/Experience'
 import { Projects } from './components/Projects'
 import { Contacts } from './components/Contact'
-
+import { ResumePrinter } from './components/ResumePrinter'
 
 function App() {
 
@@ -21,6 +21,7 @@ function App() {
         <div className="ml-[5%] border-[0.15vw] border-black w-[22%]">
           <Skills></Skills>
           <Contacts></Contacts>
+          <ResumePrinter></ResumePrinter>
         </div>
       </div>
 

@@ -1,6 +1,6 @@
 export const Contacts = ()=>{
     return(
-        <div className="mt-[7%] ml-[5%] h-[40%]">
+        <div className="mt-[7%] ml-[5%] h-[22%]">
 
             <h1 className="text-[3vw] font-extrabold font-stretch-50%">CONTACT ME</h1>
             <p className="text-[0.9vw] font-mono font-medium mt-[2%] ml-[2%]">Email: nileshboddhul1114@gmail.com</p>
@@ -14,7 +14,7 @@ export const Contacts = ()=>{
 
             </div>
             
-            <button className="h-[20%] w-[7vw] bg-blue-950 text-white rounded-2xl text-[1vw] mt-[5%] font-mono font-bold transition duration-600 hover:bg-blue-950 hover:text-white hover:scale-105">Resume</button>
+            {/* <button className="h-[20%] w-[7vw] bg-blue-950 text-white rounded-2xl text-[1vw] mt-[5%] font-mono font-bold transition duration-600 hover:bg-blue-950 hover:text-white hover:scale-105">Resume</button> */}
         </div>
     )
 }

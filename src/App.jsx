@@ -12,13 +12,14 @@ function App() {
 
 
   return (
-    <div className="min-h-[300vh] w-full">
+    <div className="w-full overflow-x-hidden">
+
       {/* hero */}
-      <div id="hero" className="h-full flex mt-[5%]">
+      <div id="hero" className="h-full flex flex-col mt-[4vh] items-center gap-[5vh] px-[6vw] lg:mt-[5vh] lg:flex-row lg:items-stretch lg:justify-center lg:gap-[4vw] lg:px-[5vw]">
         <MyImage></MyImage>
         <About></About>
         
-        <div className="ml-[5%] border-[0.15vw] border-black w-[22%]">
+        <div className=" border-[0.4vw] p-[4vw] border-black w-[88vw] lg:w-[22vw] lg:border-[0.15vw] lg:p-[1.2vw]">
           <Skills></Skills>
           <Contacts></Contacts>
           <ResumePrinter></ResumePrinter>

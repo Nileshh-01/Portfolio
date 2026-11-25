@@ -1,6 +1,6 @@
 export const About = ()=>{
     return(
-        <div className="w-[30%] ml-[5%] ">
+        <div className="w-[88vw] lg:w-[34vw]">
             <h1 className="text-[11vw] mt-[-10%] font-extrabold font-stretch-50% [-webkit-text-stroke:1px_black]">HELLO</h1>
             <h3 className="text-[2vw] font-bold font-stretch-50%">I'm Nilesh Boddhul.</h3>
 

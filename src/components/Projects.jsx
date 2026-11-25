@@ -6,13 +6,13 @@ export const Projects = ()=>{
     const [activeId,setActiveid] = useState(null);
     return(
         <>
-        <h1 className="flex text-[6vw] font-extrabold justify-center mt-[10%]">THE STUFF</h1>
-        <div className="mt-[5%] flex justify-around">
+        <h1 className="flex text-[min(13vw,14vh)] font-extrabold justify-center mt-[10%]">THE STUFF</h1>
+        <div className="mt-[5%] flex flex-wrap gap-[5vh] justify-around">
             {
                 ProjectsData.map((project)=>{
                     const isOpen = (project.id===activeId);
                     return(
-                    <div onClick={()=> setActiveid(isOpen? null : project.id)} className="group h-[45vh] w-[20vw] gap-y-[20%] bg-white shadow-[10px_10px_20px_black]" key={project.id}>
+                    <div onClick={()=> setActiveid(isOpen? null : project.id)} className="group h-[45vh] w-[min(80vw,36vh)] gap-y-[20%] bg-white shadow-[10px_10px_20px_black]" key={project.id}>
                         
                         <div className="relative ml-[3%] mt-[3%] h-[30vh] w-[94%] bg-black">
                             <img src={project.image} alt={project.title} className={`relative h-[100%] w-[100%] bg-gray-400 z-10 transition-opacity duration-900 group-hover:opacity-0 pointer-events-none ${isOpen? "opacity-0":"opacity-100"}`}/>

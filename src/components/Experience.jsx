@@ -2,23 +2,23 @@ import tornPage from "../assets/Torn_page.png";
 
 export const Experience = () => {
   return (
-    <div className="relative w-[100%]  mt-[-10%] ">
+    <div className="relative w-[100%]  mt-[-15%] pointer-events-none">
       <img src={tornPage} alt="" className="h-[min(350vw,145vh)] w-[100vw] object-fill"/>
 
       <div className="absolute inset-0 flex flex-col justify-center gap-[4vh] px-[6vw] lg:flex-row lg:items-center lg:justify-between lg:gap-[4vw]">
 
-        <div className="w-[88vw] lg:w-[38vw] mt-[2vw]">
-          <h2 className="text-[min(8.5vw,5.8vh)] font-black tracking-tight text-white mt-[2vw]">
-            <span className="text-[min(9.5vw,9.8vh)] text-red-700">Research</span>  Intern - IIT Indore
+        <div className="w-[88vw] lg:w-[38vw] mt-[10vw] md:mt-[0]">
+          <h2 className="text-[min(5.5vw,5.8vh)] font-black tracking-tight text-white mt-[2vw] pointer-events-auto">
+            <span className="text-[min(10vw,9.8vh)] text-red-700 pointer-events-auto">Research</span>  Intern - IIT Indore
           </h2>
-          <span className="mt-[1.5vh] block font-mono text-[min(2vw,1.5vh)] font-semibold uppercase tracking-wider text-neutral-400">
+          <span className="pointer-events-auto md:mt-[1.5vh] block font-mono text-[min(2vw,1.5vh)] font-semibold uppercase tracking-wider text-neutral-400">
             May - June 2026
           </span>
         </div>
 
 
-        <div className="w-[88vw] lg:w-[46vw] mt-[-5vw] md:mt-[1vw] ">
-          <p className="font-black text-[min(3.3vw,3.5vh)] font-bold text-neutral-300 text-red-800">Dry Methane Reforming Microkinetic Modeling</p>
+        <div className="w-[88vw] lg:w-[46vw] mt-[-7vw] md:mt-[1vw] pointer-events-auto">
+          <p className="font-black text-[min(5.3vw,7vh)] font-RebeqaExtraBold font-bold text-neutral-300 text-red-800">Dry Methane Reforming Microkinetic Modeling</p>
             <p className=" text-[min(2vw,1.5vh)] font-semibold text-neutral-300">C++, SUNDIALS CVODE</p>
           <ul className="mt-[2vh] list-disc space-y-[1.2vh] pl-[4%] text-[min(2.5vw,1.55vh)] leading-relaxed text-neutral-200">
             <li>

@@ -15,8 +15,8 @@ export const ResumePrinter = () => {
 
   return (
     <>
-      <button onClick={() => setOpen(true)} className="mt-[6%] ml-[3%] cursor-pointer rounded-xl bg-neutral-950 px-[12%] py-[5%] text-[3vw] lg:text-[1.1vw] font-bold text-white shadow-md transition hover:bg-neutral-800 active:scale-95">
-        See Resume
+      <button onClick={() => setOpen(true)} className="font-Runiga mt-[2%] md:mt-[-3.5%] ml-[3%] cursor-pointer rounded-xl bg-neutral-950 px-[12%] py-[5%] text-[3vw] lg:text-[1.1vw] font-bold text-white shadow-md transition hover:bg-neutral-800 active:scale-95">
+        Print Resume
       </button>
 
       {open && (

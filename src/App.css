@@ -7,3 +7,39 @@ body {
   background-repeat: repeat;
   background-position: top left;
 }
+
+
+@font-face {
+  font-family: "Kastemo";
+  src: url(src/assets/fonts/Kastemo.otf);
+}
+
+@font-face {
+  font-family: "Zasila";
+  src: url(src/assets/fonts/Zasila.otf);
+}
+
+@font-face {
+  font-family: "Runiga";
+  src: url(src/assets/fonts/Runiga.otf);
+}
+
+@font-face {
+  font-family: "RebeqaExtraBold";
+  src: url(src/assets/fonts/Rebeqa-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: "RebeqaMedium";
+  src: url(src/assets/fonts/Rebeqa-Medium.ttf);
+}
+
+
+@theme{
+  --font-Kastemo: "Kastemo";
+  --font-Zasila: "Zasila";
+  --font-Runiga: "KastRunigaemo";
+  --font-RebeqaExtraBold: "RebeqaExtraBold";
+  --font-RebeqaMedium: "RebeqaExtraBold";
+   
+}

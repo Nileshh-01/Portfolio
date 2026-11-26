@@ -6,7 +6,14 @@ export const Projects = ()=>{
     const [activeId,setActiveid] = useState(null);
     return(
         <>
-        <h1 className="flex text-[min(13vw,14vh)] font-extrabold justify-center mt-[-10%]">THE STUFF</h1>
+        {/* <h1 className="flex text-[min(13vw,12vh)] font-extrabold font-Kastemo justify-center mt-[-10%]">The <span className="text-red-800 text-[min(15vw,20vh)] mt-[-10.4vh]">stuff</span></h1>
+        <h1 className="flex text-[min(13vw,18vh)] font-extrabold font-Kastemo justify-center mt-[-8%] ml-[0%]">I </h1>
+        <span className="flex  font-extrabold font-Kastemo justify-center mt-[-8.6%] text-[min(15vw,20vh)] text-red-900 ml-[3%]">cooked</span> */}
+
+        <h1 className="flex text-[min(11vw,12vh)] font-extrabold font-Kastemo justify-center mt-[-10%] ml-[0%]">The <span className="text-red-800 text-[min(17vw,20vh)] mt-[-6vh] md:mt-[-10.4vh]">&nbsp;stuff</span></h1>
+
+        <span className="flex  font-extrabold font-Kastemo justify-center mt-[-5.6%] text-[min(15vw,20vh)] text-[#7d0000] ml-[20%]"> <span className="text-[min(10vw,15vh)] font-serif font-medium mt-[6.6%] text-black">i </span>&nbsp;cooked</span>
+
         <div className="mt-[5%] mb-[5%] flex flex-wrap gap-[5vh] justify-around">
             {
                 ProjectsData.map((project)=>{

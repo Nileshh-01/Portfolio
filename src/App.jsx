@@ -15,7 +15,7 @@ function App() {
     <div className="w-full overflow-x-hidden">
 
       {/* hero */}
-      <div id="hero" className="h-full flex flex-col mt-[4vh] items-center gap-[5vh] px-[6vw] lg:mt-[5vh] lg:flex-row lg:items-stretch lg:justify-center lg:gap-[4vw] lg:px-[5vw]">
+      <div id="hero" className="h-full flex flex-col mt-[4vh] items-center gap-[5vh] px-[6vw] lg:mt-[10vh] lg:flex-row lg:items-stretch lg:justify-center lg:gap-[4vw] lg:px-[5vw]">
         <MyImage></MyImage>
         <About></About>
         

@@ -6,8 +6,8 @@ export const Projects = ()=>{
     const [activeId,setActiveid] = useState(null);
     return(
         <>
-        <h1 className="flex text-[min(13vw,14vh)] font-extrabold justify-center mt-[10%]">THE STUFF</h1>
-        <div className="mt-[5%] flex flex-wrap gap-[5vh] justify-around">
+        <h1 className="flex text-[min(13vw,14vh)] font-extrabold justify-center mt-[-10%]">THE STUFF</h1>
+        <div className="mt-[5%] mb-[5%] flex flex-wrap gap-[5vh] justify-around">
             {
                 ProjectsData.map((project)=>{
                     const isOpen = (project.id===activeId);

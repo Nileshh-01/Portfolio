@@ -2,7 +2,7 @@
 
 body {
   background-color: #F7F6F2;
-  background-image: url(src/assets/bg.png);
+  background-image: url(./assets/bg.png);
   background-size: 800px auto; 
   background-repeat: repeat;
   background-position: top left;
@@ -11,27 +11,27 @@ body {
 
 @font-face {
   font-family: "Kastemo";
-  src: url(src/assets/fonts/Kastemo.otf);
+  src: url(./assets/fonts/Kastemo.otf);
 }
 
 @font-face {
   font-family: "Zasila";
-  src: url(src/assets/fonts/Zasila.otf);
+  src: url(./assets/fonts/Zasila.otf);
 }
 
 @font-face {
   font-family: "Runiga";
-  src: url(src/assets/fonts/Runiga.otf);
+  src: url(./assets/fonts/Runiga.otf);
 }
 
 @font-face {
   font-family: "RebeqaExtraBold";
-  src: url(src/assets/fonts/Rebeqa-ExtraBold.ttf);
+  src: url(./assets/fonts/Rebeqa-ExtraBold.ttf);
 }
 
 @font-face {
   font-family: "RebeqaMedium";
-  src: url(src/assets/fonts/Rebeqa-Medium.ttf);
+  src: url(./assets/fonts/Rebeqa-Medium.ttf);
 }
 
 

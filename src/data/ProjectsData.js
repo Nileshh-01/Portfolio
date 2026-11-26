@@ -1,6 +1,6 @@
 import wikiImg from "../assets/Wikipedia-rabbit-hole.png";
 import cameraImg from "../assets/Camera-canvas.png";
-import pathfindingImg from "../assets/pathfinding.png";
+import pathfindingImg from "../assets/Pathfinding.png";
 import jupiterImg from "../assets/Jupiter-clock.png";
 
 

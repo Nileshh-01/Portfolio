@@ -1,4 +1,4 @@
-import { skillsData } from "../data/skillsData"
+import { skillsData } from "../data/skillsData.jsnpm "
 
 export const Skills = ()=>{
     

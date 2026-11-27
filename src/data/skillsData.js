@@ -6,7 +6,7 @@ import cppIcon from "../assets/C++.svg";
 import mysqlIcon from "../assets/MySQL.svg";
 import pythonIcon from "../assets/Python.svg";
 import gitIcon from "../assets/Git.svg";
-import supabaseIcon from "../assets/Supabase-icon.svg";
+import supabaseIcon from "../assets/supabase-icon.svg";
 
 export const skillsData = [
   {

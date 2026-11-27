@@ -1,4 +1,4 @@
-import javascriptIcon from "../assets/Javascript.svg";
+import javascriptIcon from "../assets/JavaScript.svg";
 import tailwindIcon from "../assets/Tailwind CSS.svg";
 import htmlIcon from "../assets/HTML5.svg";
 import reactIcon from "../assets/React.svg";

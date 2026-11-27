@@ -1,44 +1,48 @@
+import javascriptIcon from "../assets/Javascript.svg";
+import tailwindIcon from "../assets/Tailwind CSS.svg";
+import htmlIcon from "../assets/HTML5.svg";
+import reactIcon from "../assets/React.svg";
+import cppIcon from "../assets/C++.svg";
+import mysqlIcon from "../assets/MySQL.svg";
+import pythonIcon from "../assets/Python.svg";
+import gitIcon from "../assets/Git.svg";
+import supabaseIcon from "../assets/Supabase-icon.svg";
+
 export const skillsData = [
   {
     name: "Javascript",
-    icon: "src/assets/Javascript.svg",
+    icon: javascriptIcon,
   },
-
   {
     name: "TailwindCSS",
-    icon: "src/assets/Tailwind CSS.svg",
+    icon: tailwindIcon,
   },
-
   {
     name: "HTML",
-    icon: "src/assets/HTML5.svg",
+    icon: htmlIcon,
   },
-
   {
     name: "React",
-    icon: "src/assets/React.svg",
+    icon: reactIcon,
   },
-
   {
     name: "C++",
-    icon: "src/assets/C++.svg",
+    icon: cppIcon,
   },
-
   {
     name: "SQL",
-    icon: "src/assets/MySQL.svg",
+    icon: mysqlIcon,
   },
-  
   {
     name: "Python",
-    icon: "src/assets/Python.svg",
+    icon: pythonIcon,
   },
   {
     name: "Git",
-    icon: "src/assets/Git.svg",
+    icon: gitIcon,
   },
   {
     name: "Supabase",
-    icon: "src/assets/supabase-icon.svg",
+    icon: supabaseIcon,
   },
 ];

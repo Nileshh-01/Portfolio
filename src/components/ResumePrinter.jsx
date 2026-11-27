@@ -24,7 +24,7 @@ export const ResumePrinter = () => {
           <div onClick={(e) => e.stopPropagation()} className="flex w-[min(90vw,68vh)] flex-col items-center">
             {/* Download*/}
             <div className="mb-[1.5vh] flex w-[100%] items-center justify-end gap-[2%]">
-              <a href="/Nilesh_Boddhul_NITW_Resume7.pdf" download className="rounded-lg bg-black px-[3%] py-[1.2%] text-[min(3vw,1.8vh)] font-bold text-white shadow transition hover:bg-neutral-800">
+              <a href="/Nilesh_Boddhul_NITW_Resume.pdf" download className="rounded-lg bg-black px-[3%] py-[1.2%] text-[min(3vw,1.8vh)] font-bold text-white shadow transition hover:bg-neutral-800">
                 Download PDF ↓
               </a>
 
@@ -46,7 +46,7 @@ export const ResumePrinter = () => {
               >
                 <div className="pointer-events-none absolute inset-x-0 top-0 h-[2vh] bg-gradient-to-b from-black/20 to-transparent" />
 
-                <img src="/Nilesh_Boddhul_NITW_Resume7.png" alt="Nilesh Boddhul Resume" className="block h-auto w-[100%]"/>
+                <img src="/Nilesh_Boddhul_NITW_Resume.png" alt="Nilesh Boddhul Resume" className="block h-auto w-[100%]"/>
               </div>
             </div>
           </div>

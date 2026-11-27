@@ -25,13 +25,23 @@ export const MyImage = ()=>{
 
         const interval = setInterval(() => {
         setIndex((prev) => (prev + 1) % frames.length);
-        }, 1020); // Adjust ms for faster/slower stop-motion speed
+        }, 500); 
 
         return () => clearInterval(interval);
     }, []);
     return(
-        <div className="flex w-[min(60vw,36vh)] items-end justify-center font-extrabold font-stretch-50% border-2 border-red-950 overflow-hidden">
-            <img src={frames[index]} alt="model" className="h-[100%] w-[100%] scale-[1] object-contain origin-bottom object-bottom"/>
+        <div className="flex relative h-[min(90vw,78vh)] w-[min(60vw,36vh)] items-end justify-center shrink-0 border-2 border-red-950 overflow-hidden">
+            {frames.map((src, i) => (
+        <img key={i} src={src} alt="Nilesh Boddhul" 
+        // className={`absolute scale-[0.77] inset-0  h-full w-full origin-bottom object-contain object-bottom select-none 
+        //     ${
+        //         i === index ? "opacity-100" : "opacity-0"
+        //     }`}
+        className={`absolute bottom-0 left-1/2 h-full w-auto max-w-none -translate-x-1/2 origin-bottom select-none ${
+          i === index ? "opacity-100" : "opacity-0"
+        }`}
+        />
+      ))}
         </div>
     )
 }
